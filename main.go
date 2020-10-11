@@ -48,26 +48,3 @@ func main() {
 
 }
 
-/*
-
-const (
-	TokenEOF = iota - 1
-
-	TokenIdentifier
-	TokenNumber
-
-	TokenIf
-	TokenElse
-
-	TokenSemicolon
-)
-
-var tokens = map[string]int{
-	`(if){1}`:             TokenIf,
-	`(else){1}`:           TokenElse,
-	`;`:                   TokenSemicolon,
-	`^([a-zA-Z]_)(_\w)+$`: TokenIdentifier,
-	`^\d+(\.\d+)?$`:       TokenNumber,
-}
-
-*/

@@ -90,7 +90,7 @@ func (l *Lexer) NextToken() {
 		// Float number
 		if l.buffer == "." {
 			ident += l.buffer
-			l.next()
+			l.next()	
 
 			for isDigit(l.buffer) {
 				ident += l.buffer

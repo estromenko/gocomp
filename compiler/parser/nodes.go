@@ -19,3 +19,10 @@ func NewNode(kind int, value *int, op1 *Node, op2 *Node, op3 *Node) *Node {
 		op3:   op3,
 	}
 }
+
+// Kinds
+const (
+	KindProgram = iota
+	KindVar
+	KindIf
+)

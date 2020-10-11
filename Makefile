@@ -8,7 +8,7 @@ build:
 	go build -o bin/main main.go
 
 run:
-	./bin/main -o $(f)
+	./bin/main -f $(f)
 
 test:
 	go test compiler/lexer/lexer_test.go \
